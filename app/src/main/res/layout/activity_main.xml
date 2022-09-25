@@ -23,27 +23,30 @@
         android:id="@+id/user_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:layout_below="@id/logo"
-        android:backgroundTint="@color/design_default_color_background"
-        android:layout_marginTop="100sp"
+        android:layout_centerInParent="true"
         android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="80sp"
+        android:background="@color/user2"
+        android:backgroundTint="@color/design_default_color_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/hint_user_field"
         android:inputType="textPersonName"
-        android:textSize="23sp"
-        android:hint="@string/hint_user_field" />
+        android:textSize="26sp" />
 
     <Button
         android:id="@+id/main_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/user_field"
-        android:layout_marginHorizontal="130sp"
+        android:layout_marginHorizontal="90sp"
         android:layout_marginTop="20sp"
-        android:textSize="20sp"
         android:backgroundTint="@color/user2"
         android:fontFamily="@font/yeseva_one"
         android:text="@string/main_button"
-        android:textColor="@color/black" />
+        android:textColor="@color/black"
+        android:textSize="17sp" />
 
     <TextView
         android:id="@+id/result_info"
